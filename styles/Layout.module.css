@@ -1,0 +1,86 @@
+.navBtn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: black;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+.mainContainer{
+  display:flex;
+  min-height: 100vh;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+
+.linkLogout{
+    background-color: red;
+    border-radius:5px;
+} 
+
+.welcomeText{
+  padding:16px; 
+}
+
+
+.menuNav{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.mainSection{
+  max-width:100%;
+   margin:auto;
+   margin-top:16px; 
+  paddingRight:16px;
+  paddingLeft:16px;
+}
+
+.footer{
+  display: flex;
+  alighn-items:flex-start;
+  justify-content:center;
+  align-items:center;
+  height:40px;
+ 
+}
+
+
+@media(min-width:640px){
+  .mainSection{
+    max-width:640px;
+  }
+ 
+}
+@media(min-width:768px){
+  .mainSection{
+    max-width:768px;
+  }
+}
+
+@media(min-width:1024px){
+  .mainSection{
+    max-width:1024px;
+  }
+}
+
+@media(min-width:1280px){
+  .mainSection{
+    max-width:1280px;
+  }
+}
+
+@media(min-width:1536x){
+  .mainSection{
+    max-width:1536px;
+  }
+}
+
+
+ 

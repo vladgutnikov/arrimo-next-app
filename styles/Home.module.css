@@ -1,0 +1,29 @@
+.homeContainer{
+    margin-top:200px;
+}
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    max-width: 200px;
+    font-weight: bold;
+    background-color: #29335c;
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px; 
+    cursor:pointer;   
+
+}
+
+.btn:hover {
+    background-color: #5767aa;
+}
+
+.additionalContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}

@@ -1,0 +1,26 @@
+.calendarContainer{
+  position:relative;
+  z-index:0;
+
+}
+
+.EventBtn{
+  min-width: 177px;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  background-color: #fefefe;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  font-size: 18px;
+  font-weight: 700;
+  min-height: 50px;
+}
+
+.EventBtn:hover{
+  color:#fff;
+  background: #2c3e50;
+}
+

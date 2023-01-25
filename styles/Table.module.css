@@ -1,0 +1,24 @@
+.rightContainer{
+    display: grid;
+   grid-template-columns: 370px 370px 370px;
+   gap:20px;
+}
+
+.card{
+    border-radius:5px;
+    border:1px solid grey;
+    padding:10px;
+}
+.innerBtnCard{
+    display:flex;
+    justify-content:flex-end;
+    margin-bottom:10px;
+
+}
+.btnEdit{
+    margin-right:10px;
+    cursor:pointer;
+}
+.btnDel{
+    cursor:pointer;
+}
